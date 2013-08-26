@@ -1,0 +1,103 @@
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Recuperacion_de_datos.resources
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Form1.resources
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Propietario\Desktop\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Joseph\Dropbox\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Dropbox\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Form1.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Recuperacion_de_datos.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Form1.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Login.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Recuperacion_de_datos.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Propietario\Desktop\Servicio al Cliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Ventana.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Login.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Recuperacion_de_datos.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RecuperaUsuario.resources
+C:\Users\Joseph\Desktop\Servicio al Cliente\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RegistroUsuario.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RecuperaUsuario.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RegistroUsuario.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Ventana.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Login.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Recuperacion_de_datos.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Olivia\Desktop\proy\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RecuperaUsuario.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RegistroUsuario.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Ventana.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Login.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ActualizaDatos.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RecuperaUsuariov.resources
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Proyecto\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RegistroUsuariov.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.exe
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Servicio al Ciente.pdb
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ActualizaDatos.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.consulta.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RecuperaUsuario.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.RegistroUsuario.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Ventana.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.ingreso.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Login.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.Properties.Resources.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio_al_Ciente.reporte.resources
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\obj\x86\Debug\Servicio al Ciente.csproj.GenerateResource.Cache
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Conexion.dll
+C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Servicio al Ciente\bin\Debug\Conexion.pdb
