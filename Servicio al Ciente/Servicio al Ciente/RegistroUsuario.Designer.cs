@@ -34,15 +34,15 @@
             this.label_apellido = new System.Windows.Forms.Label();
             this.combobox_correo = new System.Windows.Forms.ComboBox();
             this.label_arroba = new System.Windows.Forms.Label();
-            this.text_apellido = new System.Windows.Forms.TextBox();
             this.text_user = new System.Windows.Forms.TextBox();
             this.text_correo = new System.Windows.Forms.TextBox();
+            this.text_apellido = new System.Windows.Forms.TextBox();
             this.text_nombre = new System.Windows.Forms.TextBox();
             this.label_correo = new System.Windows.Forms.Label();
             this.label_user = new System.Windows.Forms.Label();
             this.label_nombre = new System.Windows.Forms.Label();
             this.groupbox_datosp = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dt_fecha = new System.Windows.Forms.DateTimePicker();
             this.combobox_sexo = new System.Windows.Forms.ComboBox();
             this.text_telefono = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -61,9 +61,9 @@
             this.groupbox_registro.Controls.Add(this.label_apellido);
             this.groupbox_registro.Controls.Add(this.combobox_correo);
             this.groupbox_registro.Controls.Add(this.label_arroba);
-            this.groupbox_registro.Controls.Add(this.text_apellido);
             this.groupbox_registro.Controls.Add(this.text_user);
             this.groupbox_registro.Controls.Add(this.text_correo);
+            this.groupbox_registro.Controls.Add(this.text_apellido);
             this.groupbox_registro.Controls.Add(this.text_nombre);
             this.groupbox_registro.Controls.Add(this.label_correo);
             this.groupbox_registro.Controls.Add(this.label_user);
@@ -82,7 +82,7 @@
             this.text_pasword.Location = new System.Drawing.Point(207, 139);
             this.text_pasword.Name = "text_pasword";
             this.text_pasword.Size = new System.Drawing.Size(138, 24);
-            this.text_pasword.TabIndex = 11;
+            this.text_pasword.TabIndex = 8;
             this.text_pasword.UseSystemPasswordChar = true;
             // 
             // label_password
@@ -115,7 +115,7 @@
             this.combobox_correo.Location = new System.Drawing.Point(520, 53);
             this.combobox_correo.Name = "combobox_correo";
             this.combobox_correo.Size = new System.Drawing.Size(192, 26);
-            this.combobox_correo.TabIndex = 8;
+            this.combobox_correo.TabIndex = 6;
             // 
             // label_arroba
             // 
@@ -127,30 +127,29 @@
             this.label_arroba.TabIndex = 7;
             this.label_arroba.Text = "@";
             // 
-            // text_apellido
-            // 
-            this.text_apellido.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.text_apellido.Location = new System.Drawing.Point(520, 14);
-            this.text_apellido.Name = "text_apellido";
-            this.text_apellido.Size = new System.Drawing.Size(192, 24);
-            this.text_apellido.TabIndex = 6;
-            // 
             // text_user
             // 
             this.text_user.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.text_user.Location = new System.Drawing.Point(207, 91);
+            this.text_user.Location = new System.Drawing.Point(207, 97);
             this.text_user.Name = "text_user";
             this.text_user.Size = new System.Drawing.Size(138, 24);
-            this.text_user.TabIndex = 5;
-            this.text_user.UseSystemPasswordChar = true;
+            this.text_user.TabIndex = 7;
             // 
             // text_correo
             // 
             this.text_correo.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.text_correo.Location = new System.Drawing.Point(207, 55);
+            this.text_correo.Location = new System.Drawing.Point(207, 61);
             this.text_correo.Name = "text_correo";
             this.text_correo.Size = new System.Drawing.Size(230, 24);
-            this.text_correo.TabIndex = 4;
+            this.text_correo.TabIndex = 5;
+            // 
+            // text_apellido
+            // 
+            this.text_apellido.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.text_apellido.Location = new System.Drawing.Point(520, 11);
+            this.text_apellido.Name = "text_apellido";
+            this.text_apellido.Size = new System.Drawing.Size(192, 24);
+            this.text_apellido.TabIndex = 4;
             // 
             // text_nombre
             // 
@@ -192,7 +191,7 @@
             // 
             // groupbox_datosp
             // 
-            this.groupbox_datosp.Controls.Add(this.dateTimePicker1);
+            this.groupbox_datosp.Controls.Add(this.dt_fecha);
             this.groupbox_datosp.Controls.Add(this.combobox_sexo);
             this.groupbox_datosp.Controls.Add(this.text_telefono);
             this.groupbox_datosp.Controls.Add(this.label3);
@@ -206,13 +205,13 @@
             this.groupbox_datosp.TabStop = false;
             this.groupbox_datosp.Text = "Datos Personales";
             // 
-            // dateTimePicker1
+            // dt_fecha
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(245, 36);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(311, 22);
-            this.dateTimePicker1.TabIndex = 6;
+            this.dt_fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dt_fecha.Location = new System.Drawing.Point(245, 36);
+            this.dt_fecha.Name = "dt_fecha";
+            this.dt_fecha.Size = new System.Drawing.Size(311, 22);
+            this.dt_fecha.TabIndex = 9;
             // 
             // combobox_sexo
             // 
@@ -224,7 +223,7 @@
             this.combobox_sexo.Location = new System.Drawing.Point(245, 102);
             this.combobox_sexo.Name = "combobox_sexo";
             this.combobox_sexo.Size = new System.Drawing.Size(311, 28);
-            this.combobox_sexo.TabIndex = 5;
+            this.combobox_sexo.TabIndex = 11;
             // 
             // text_telefono
             // 
@@ -232,7 +231,7 @@
             this.text_telefono.Location = new System.Drawing.Point(245, 68);
             this.text_telefono.Name = "text_telefono";
             this.text_telefono.Size = new System.Drawing.Size(311, 26);
-            this.text_telefono.TabIndex = 4;
+            this.text_telefono.TabIndex = 10;
             // 
             // label3
             // 
@@ -282,7 +281,7 @@
             this.button_registrar.Location = new System.Drawing.Point(696, 436);
             this.button_registrar.Name = "button_registrar";
             this.button_registrar.Size = new System.Drawing.Size(96, 31);
-            this.button_registrar.TabIndex = 3;
+            this.button_registrar.TabIndex = 12;
             this.button_registrar.Text = "Registrar";
             this.button_registrar.UseVisualStyleBackColor = false;
             this.button_registrar.Click += new System.EventHandler(this.button_registrar_Click);
@@ -291,6 +290,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Servicio_al_Ciente.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(822, 492);
             this.Controls.Add(this.button_registrar);
@@ -317,8 +317,8 @@
         private System.Windows.Forms.Button button_registrar;
         private System.Windows.Forms.ComboBox combobox_correo;
         private System.Windows.Forms.Label label_arroba;
-        private System.Windows.Forms.TextBox text_user;
         private System.Windows.Forms.TextBox text_correo;
+        private System.Windows.Forms.TextBox text_apellido;
         private System.Windows.Forms.TextBox text_nombre;
         private System.Windows.Forms.Label label_correo;
         private System.Windows.Forms.Label label_user;
@@ -328,8 +328,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label_telefono;
         private System.Windows.Forms.Label label_fechan;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox text_apellido;
+        private System.Windows.Forms.DateTimePicker dt_fecha;
+        private System.Windows.Forms.TextBox text_user;
         private System.Windows.Forms.Label label_password;
         private System.Windows.Forms.Label label_apellido;
         private System.Windows.Forms.TextBox text_pasword;

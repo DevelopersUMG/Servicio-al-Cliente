@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Conexion;
 
 namespace Servicio_al_Ciente
 {
@@ -53,7 +54,7 @@ namespace Servicio_al_Ciente
 
         private void cerrarSessionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Ventana ext = new Ventana();
+            Login ext = new Login();
             ext.Show();
             this.Hide();
         }
@@ -79,5 +80,10 @@ namespace Servicio_al_Ciente
         {
             Application.Exit();
         }
+
+       
+
+        
+        
     }
 }

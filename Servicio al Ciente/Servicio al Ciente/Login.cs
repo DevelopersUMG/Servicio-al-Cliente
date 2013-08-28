@@ -26,32 +26,36 @@ namespace Servicio_al_Ciente
             InitializeComponent();
         }
 
-       int contol=0;
-
 
    
       
         private void button1_Click(object sender, EventArgs e)
         {
-
+          
             conexion con = new conexion();
-            Boolean estado = false;
-           
-           
-                estado = con.consulta_log(text_user.Text, text_pas.Text);
+            con.Conectar();
 
-                if (estado == true)
-                {
+            try
+            {
+                con.consulta_log(text_user.Text, text_pas.Text);
+                if (con.session == true)
+                {   
                     Ventana frm = new Ventana();
                     frm.Show();
                     this.Hide();
+                    
                 }
-                else
-                {
-                    MessageBox.Show("Error de servidor");
-                }       
-           
+                else {
+                    MessageBox.Show("Error al iniciar session");
+                }
+               
+            }
+            catch {
+                MessageBox.Show("Error de servidor");
+            }
+               
 
+                con.Desconectar();
         }
 
         private void button2_Click(object sender, EventArgs e)

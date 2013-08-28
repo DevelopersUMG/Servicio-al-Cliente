@@ -45,7 +45,7 @@
             this.button_login.Location = new System.Drawing.Point(279, 140);
             this.button_login.Name = "button_login";
             this.button_login.Size = new System.Drawing.Size(75, 33);
-            this.button_login.TabIndex = 0;
+            this.button_login.TabIndex = 3;
             this.button_login.Text = "Login";
             this.button_login.UseVisualStyleBackColor = true;
             this.button_login.Click += new System.EventHandler(this.button1_Click);
@@ -55,7 +55,7 @@
             this.button_salir.Location = new System.Drawing.Point(17, 140);
             this.button_salir.Name = "button_salir";
             this.button_salir.Size = new System.Drawing.Size(75, 33);
-            this.button_salir.TabIndex = 1;
+            this.button_salir.TabIndex = 4;
             this.button_salir.Text = "Salir";
             this.button_salir.UseVisualStyleBackColor = true;
             this.button_salir.Click += new System.EventHandler(this.button2_Click);
@@ -85,14 +85,14 @@
             this.text_user.Location = new System.Drawing.Point(254, 48);
             this.text_user.Name = "text_user";
             this.text_user.Size = new System.Drawing.Size(100, 24);
-            this.text_user.TabIndex = 4;
+            this.text_user.TabIndex = 1;
             // 
             // text_pas
             // 
             this.text_pas.Location = new System.Drawing.Point(254, 92);
             this.text_pas.Name = "text_pas";
             this.text_pas.Size = new System.Drawing.Size(100, 24);
-            this.text_pas.TabIndex = 5;
+            this.text_pas.TabIndex = 2;
             this.text_pas.UseSystemPasswordChar = true;
             // 
             // linkLabel_registrarse
@@ -101,7 +101,7 @@
             this.linkLabel_registrarse.Location = new System.Drawing.Point(120, 241);
             this.linkLabel_registrarse.Name = "linkLabel_registrarse";
             this.linkLabel_registrarse.Size = new System.Drawing.Size(60, 13);
-            this.linkLabel_registrarse.TabIndex = 6;
+            this.linkLabel_registrarse.TabIndex = 5;
             this.linkLabel_registrarse.TabStop = true;
             this.linkLabel_registrarse.Text = "Registrarse";
             this.linkLabel_registrarse.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
@@ -109,7 +109,7 @@
             // linkLabel_recuperar
             // 
             this.linkLabel_recuperar.AutoSize = true;
-            this.linkLabel_recuperar.Location = new System.Drawing.Point(303, 241);
+            this.linkLabel_recuperar.Location = new System.Drawing.Point(272, 241);
             this.linkLabel_recuperar.Name = "linkLabel_recuperar";
             this.linkLabel_recuperar.Size = new System.Drawing.Size(113, 13);
             this.linkLabel_recuperar.TabIndex = 7;
@@ -119,6 +119,7 @@
             // 
             // groupBox_login
             // 
+            this.groupBox_login.BackColor = System.Drawing.Color.White;
             this.groupBox_login.Controls.Add(this.label_usuario);
             this.groupBox_login.Controls.Add(this.label_contraseña);
             this.groupBox_login.Controls.Add(this.text_user);
@@ -126,7 +127,7 @@
             this.groupBox_login.Controls.Add(this.button_salir);
             this.groupBox_login.Controls.Add(this.text_pas);
             this.groupBox_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.groupBox_login.Location = new System.Drawing.Point(52, 35);
+            this.groupBox_login.Location = new System.Drawing.Point(54, 47);
             this.groupBox_login.Name = "groupBox_login";
             this.groupBox_login.Size = new System.Drawing.Size(398, 179);
             this.groupBox_login.TabIndex = 8;
@@ -137,6 +138,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(490, 291);
             this.Controls.Add(this.groupBox_login);

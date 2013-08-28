@@ -30,11 +30,11 @@
         {
             this.label_ingreso_descr = new System.Windows.Forms.Label();
             this.textBox_descripcion = new System.Windows.Forms.TextBox();
-            this.textBox_id_reporte = new System.Windows.Forms.TextBox();
-            this.label_Ingreso_id = new System.Windows.Forms.Label();
+            this.label_tipo_sop = new System.Windows.Forms.Label();
             this.label_ingreso_fecha = new System.Windows.Forms.Label();
-            this.button_regresar = new System.Windows.Forms.Button();
+            this.button_ingresar = new System.Windows.Forms.Button();
             this.dateTimePicker_fecha = new System.Windows.Forms.DateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label_ingreso_descr
@@ -42,7 +42,7 @@
             this.label_ingreso_descr.AutoSize = true;
             this.label_ingreso_descr.BackColor = System.Drawing.SystemColors.Control;
             this.label_ingreso_descr.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label_ingreso_descr.Location = new System.Drawing.Point(12, 157);
+            this.label_ingreso_descr.Location = new System.Drawing.Point(12, 156);
             this.label_ingreso_descr.Name = "label_ingreso_descr";
             this.label_ingreso_descr.Size = new System.Drawing.Size(259, 18);
             this.label_ingreso_descr.TabIndex = 29;
@@ -50,59 +50,64 @@
             // 
             // textBox_descripcion
             // 
-            this.textBox_descripcion.Location = new System.Drawing.Point(285, 157);
+            this.textBox_descripcion.Location = new System.Drawing.Point(277, 156);
             this.textBox_descripcion.Multiline = true;
             this.textBox_descripcion.Name = "textBox_descripcion";
             this.textBox_descripcion.Size = new System.Drawing.Size(345, 162);
             this.textBox_descripcion.TabIndex = 28;
             // 
-            // textBox_id_reporte
+            // label_tipo_sop
             // 
-            this.textBox_id_reporte.Location = new System.Drawing.Point(285, 112);
-            this.textBox_id_reporte.Name = "textBox_id_reporte";
-            this.textBox_id_reporte.Size = new System.Drawing.Size(194, 20);
-            this.textBox_id_reporte.TabIndex = 27;
-            // 
-            // label_Ingreso_id
-            // 
-            this.label_Ingreso_id.AutoSize = true;
-            this.label_Ingreso_id.BackColor = System.Drawing.SystemColors.Control;
-            this.label_Ingreso_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label_Ingreso_id.Location = new System.Drawing.Point(12, 123);
-            this.label_Ingreso_id.Name = "label_Ingreso_id";
-            this.label_Ingreso_id.Size = new System.Drawing.Size(188, 18);
-            this.label_Ingreso_id.TabIndex = 26;
-            this.label_Ingreso_id.Text = "Ingrese el ID del reporte";
+            this.label_tipo_sop.AutoSize = true;
+            this.label_tipo_sop.BackColor = System.Drawing.SystemColors.Control;
+            this.label_tipo_sop.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.label_tipo_sop.Location = new System.Drawing.Point(12, 76);
+            this.label_tipo_sop.Name = "label_tipo_sop";
+            this.label_tipo_sop.Size = new System.Drawing.Size(210, 18);
+            this.label_tipo_sop.TabIndex = 26;
+            this.label_tipo_sop.Text = "Seleccione tipo de soporte";
             // 
             // label_ingreso_fecha
             // 
             this.label_ingreso_fecha.AutoSize = true;
             this.label_ingreso_fecha.BackColor = System.Drawing.SystemColors.Control;
             this.label_ingreso_fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label_ingreso_fecha.Location = new System.Drawing.Point(12, 88);
+            this.label_ingreso_fecha.Location = new System.Drawing.Point(12, 32);
             this.label_ingreso_fecha.Name = "label_ingreso_fecha";
-            this.label_ingreso_fecha.Size = new System.Drawing.Size(213, 18);
+            this.label_ingreso_fecha.Size = new System.Drawing.Size(174, 18);
             this.label_ingreso_fecha.TabIndex = 24;
-            this.label_ingreso_fecha.Text = "Ingrese la fecha del reporte";
+            this.label_ingreso_fecha.Text = "Ingrese fecha de caso";
             // 
-            // button_regresar
+            // button_ingresar
             // 
-            this.button_regresar.BackColor = System.Drawing.SystemColors.Control;
-            this.button_regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.button_regresar.Location = new System.Drawing.Point(545, 331);
-            this.button_regresar.Name = "button_regresar";
-            this.button_regresar.Size = new System.Drawing.Size(91, 29);
-            this.button_regresar.TabIndex = 30;
-            this.button_regresar.Text = "Regresar";
-            this.button_regresar.UseVisualStyleBackColor = false;
-            this.button_regresar.Click += new System.EventHandler(this.button1_Click);
+            this.button_ingresar.BackColor = System.Drawing.SystemColors.Control;
+            this.button_ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.button_ingresar.Location = new System.Drawing.Point(531, 341);
+            this.button_ingresar.Name = "button_ingresar";
+            this.button_ingresar.Size = new System.Drawing.Size(91, 29);
+            this.button_ingresar.TabIndex = 30;
+            this.button_ingresar.Text = "Ingresar";
+            this.button_ingresar.UseVisualStyleBackColor = false;
+            this.button_ingresar.Click += new System.EventHandler(this.button1_Click);
             // 
             // dateTimePicker_fecha
             // 
-            this.dateTimePicker_fecha.Location = new System.Drawing.Point(285, 86);
+            this.dateTimePicker_fecha.Location = new System.Drawing.Point(285, 30);
             this.dateTimePicker_fecha.Name = "dateTimePicker_fecha";
-            this.dateTimePicker_fecha.Size = new System.Drawing.Size(194, 20);
+            this.dateTimePicker_fecha.Size = new System.Drawing.Size(236, 20);
             this.dateTimePicker_fecha.TabIndex = 31;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Fisico",
+            "Tecnico",
+            "Software"});
+            this.comboBox1.Location = new System.Drawing.Point(285, 77);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(236, 21);
+            this.comboBox1.TabIndex = 32;
             // 
             // Ingreso
             // 
@@ -110,16 +115,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(648, 382);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker_fecha);
-            this.Controls.Add(this.button_regresar);
+            this.Controls.Add(this.button_ingresar);
             this.Controls.Add(this.label_ingreso_descr);
             this.Controls.Add(this.textBox_descripcion);
-            this.Controls.Add(this.textBox_id_reporte);
-            this.Controls.Add(this.label_Ingreso_id);
+            this.Controls.Add(this.label_tipo_sop);
             this.Controls.Add(this.label_ingreso_fecha);
             this.Name = "Ingreso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ingreso";
+            this.Text = "Ingreso de caso";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,10 +134,10 @@
 
         private System.Windows.Forms.Label label_ingreso_descr;
         private System.Windows.Forms.TextBox textBox_descripcion;
-        private System.Windows.Forms.TextBox textBox_id_reporte;
-        private System.Windows.Forms.Label label_Ingreso_id;
+        private System.Windows.Forms.Label label_tipo_sop;
         private System.Windows.Forms.Label label_ingreso_fecha;
-        private System.Windows.Forms.Button button_regresar;
+        private System.Windows.Forms.Button button_ingresar;
         private System.Windows.Forms.DateTimePicker dateTimePicker_fecha;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

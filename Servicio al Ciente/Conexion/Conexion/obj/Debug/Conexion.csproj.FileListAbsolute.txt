@@ -3,3 +3,13 @@ C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Conexion\Con
 C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.dll
 C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.pdb
 C:\Users\Joseph\Documents\GitHub\ServicioCliente\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Documents\Visual Studio 2010\Projects\Servicio al Ciente\Conexion\Conexion\bin\Debug\Conexion.dll
+C:\Users\Joseph\Documents\Visual Studio 2010\Projects\Servicio al Ciente\Conexion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\Joseph\Documents\Visual Studio 2010\Projects\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.dll
+C:\Users\Joseph\Documents\Visual Studio 2010\Projects\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.pdb
+C:\Users\Joseph\Documents\Visual Studio 2010\Projects\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Servicio al Ciente\Conexion\Conexion\bin\Debug\Conexion.dll
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Servicio al Ciente\Conexion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.dll
+C:\Users\Joseph\Desktop\ADST-SERVCIOCLIENTE\Servicio al Ciente\Conexion\Conexion\obj\Debug\Conexion.pdb

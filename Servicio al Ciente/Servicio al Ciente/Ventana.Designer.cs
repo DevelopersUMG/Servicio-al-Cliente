@@ -38,8 +38,6 @@
             this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitter_menu = new System.Windows.Forms.Splitter();
-            this.button_menu = new System.Windows.Forms.Button();
             this.menuStrip_menu_principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +49,7 @@
             this.sessionToolStripMenuItem});
             this.menuStrip_menu_principal.Location = new System.Drawing.Point(0, 0);
             this.menuStrip_menu_principal.Name = "menuStrip_menu_principal";
-            this.menuStrip_menu_principal.Size = new System.Drawing.Size(727, 24);
+            this.menuStrip_menu_principal.Size = new System.Drawing.Size(1141, 24);
             this.menuStrip_menu_principal.TabIndex = 2;
             this.menuStrip_menu_principal.Text = "menuStrip1";
             // 
@@ -124,42 +122,19 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // splitter_menu
-            // 
-            this.splitter_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.splitter_menu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitter_menu.Location = new System.Drawing.Point(0, 24);
-            this.splitter_menu.Name = "splitter_menu";
-            this.splitter_menu.Size = new System.Drawing.Size(189, 457);
-            this.splitter_menu.TabIndex = 4;
-            this.splitter_menu.TabStop = false;
-            this.splitter_menu.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
-            // 
-            // button_menu
-            // 
-            this.button_menu.BackgroundImage = global::Servicio_al_Ciente.Properties.Resources.inserccion;
-            this.button_menu.Location = new System.Drawing.Point(25, 60);
-            this.button_menu.Name = "button_menu";
-            this.button_menu.Size = new System.Drawing.Size(115, 28);
-            this.button_menu.TabIndex = 5;
-            this.button_menu.Text = "Menu";
-            this.button_menu.UseVisualStyleBackColor = true;
-            // 
             // Ventana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Servicio_al_Ciente.Properties.Resources._2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(727, 481);
-            this.Controls.Add(this.button_menu);
-            this.Controls.Add(this.splitter_menu);
+            this.ClientSize = new System.Drawing.Size(1141, 638);
             this.Controls.Add(this.menuStrip_menu_principal);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip_menu_principal;
             this.Name = "Ventana";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Servicio al Cliente (Prototipo)";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Text = "Servicio al Cliente";
             this.menuStrip_menu_principal.ResumeLayout(false);
             this.menuStrip_menu_principal.PerformLayout();
             this.ResumeLayout(false);
@@ -179,8 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem sessionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSessionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.Splitter splitter_menu;
-        private System.Windows.Forms.Button button_menu;
     }
 }
 
