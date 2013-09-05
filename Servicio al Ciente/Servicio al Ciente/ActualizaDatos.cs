@@ -88,7 +88,9 @@ namespace Servicio_al_Ciente
             uid = "root";
             password = "toor";
             string connectionString;
-            connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+
+            connectionString = "SERVER=localhost;DATABASE=servicioalcliente;UID=root;PASSWORD=toor;";
+          //  connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
  
             connection = new MySqlConnection(connectionString);
 
@@ -118,6 +120,13 @@ namespace Servicio_al_Ciente
                 ((DataTable)dataGridView1.DataSource).AcceptChanges();
             } 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+      
   
     }
 }

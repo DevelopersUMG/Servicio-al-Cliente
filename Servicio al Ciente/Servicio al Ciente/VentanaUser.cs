@@ -10,9 +10,9 @@ using Conexion;
 
 namespace Servicio_al_Ciente
 {
-    public partial class Ventana : Form
+    public partial class VentanaUser : Form
     {
-        public Ventana()
+        public VentanaUser()
         {
             InitializeComponent();
         }

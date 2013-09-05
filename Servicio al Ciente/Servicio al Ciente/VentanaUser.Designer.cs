@@ -1,6 +1,6 @@
 ﻿namespace Servicio_al_Ciente
 {
-    partial class Ventana
+    partial class VentanaUser
     {
         /// <summary>
         /// Variable del diseñador requerida.

@@ -85,7 +85,7 @@
             this.text_user.Location = new System.Drawing.Point(254, 48);
             this.text_user.Name = "text_user";
             this.text_user.Size = new System.Drawing.Size(100, 24);
-            this.text_user.TabIndex = 1;
+            this.text_user.TabIndex = 0;
             // 
             // text_pas
             // 
@@ -98,7 +98,7 @@
             // linkLabel_registrarse
             // 
             this.linkLabel_registrarse.AutoSize = true;
-            this.linkLabel_registrarse.Location = new System.Drawing.Point(120, 241);
+            this.linkLabel_registrarse.Location = new System.Drawing.Point(127, 241);
             this.linkLabel_registrarse.Name = "linkLabel_registrarse";
             this.linkLabel_registrarse.Size = new System.Drawing.Size(60, 13);
             this.linkLabel_registrarse.TabIndex = 5;
@@ -109,10 +109,10 @@
             // linkLabel_recuperar
             // 
             this.linkLabel_recuperar.AutoSize = true;
-            this.linkLabel_recuperar.Location = new System.Drawing.Point(272, 241);
+            this.linkLabel_recuperar.Location = new System.Drawing.Point(281, 241);
             this.linkLabel_recuperar.Name = "linkLabel_recuperar";
             this.linkLabel_recuperar.Size = new System.Drawing.Size(113, 13);
-            this.linkLabel_recuperar.TabIndex = 7;
+            this.linkLabel_recuperar.TabIndex = 6;
             this.linkLabel_recuperar.TabStop = true;
             this.linkLabel_recuperar.Text = "Recuperar contraseña";
             this.linkLabel_recuperar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);

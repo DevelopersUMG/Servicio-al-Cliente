@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using MySql.Data.MySqlClient;
 using System.Net.Mail;
+using System.Data;
+using System.Collections;
+
+
 
 namespace Conexion
 {
@@ -12,6 +16,8 @@ namespace Conexion
         MySqlConnection Connection = new MySqlConnection();
         public String usu;
         public String pas;
+        public String id;
+
         public String CadenaDeConexion = "Server=localhost;"
                                        + "Port=3306;"
                                        + "Database=servicioalcliente;"
@@ -24,7 +30,11 @@ namespace Conexion
         static MySqlDataAdapter Adaptador = new MySqlDataAdapter();
         //**
 
+       
+        // variables de logeo de session
         public Boolean session = false;
+        public int estado;
+
 
         public void Conectar()
         {
@@ -49,68 +59,56 @@ namespace Conexion
 
         public void consulta_log(String user, String pass) {
 
-            
+         
+
             MySqlCommand query = Connection.CreateCommand();
 
-            query.CommandText = "select user_user,pass_user from tblusuario where user_user='"+user+"' and pass_user='"+pass+"';";
+            //query.CommandText = "select user_user,pass_user from tblusuario where user_user='"+user+"' and pass_user='"+pass+"';";
+
+            query.CommandText = "select user_user,pass_user,id_tipo from tblusuario where user_user='"+user+"' and pass_user='"+pass+"';";
 
             MySqlDataReader reader = query.ExecuteReader();
+            
+            int id1;
+          
+
             while (reader.Read())
             {
                 usu = reader["user_user"].ToString();
                 pas = reader["pass_user"].ToString();
-              
-            }
-           
-            if (user.Equals(usu) && pass.Equals(pas))
-            {
-            
-                session = true;
-            }
-            else
-            {
-                session = false;
-            }
-           
+                id = reader["id_tipo"].ToString();
 
+                id1 = Convert.ToInt32(id);
+            }
            
-
         }
 
 
-        public int count() {
-        
 
-            int count = 1;
-
-            MySqlCommand query = Connection.CreateCommand();
-            query.CommandText = "select  * from usuario;";
-
-            MySqlDataReader reader = query.ExecuteReader();
-            while (reader.Read())
-            {
-                count++;
-            }
-            
-           
-            return count;
-
-
-        }
-      
 
         public void inserta_user( string nom, string ape, string cor, string user,string pas,string nac,string tel,string sex) {
 
 
-                string campos = "(nom_user,ape_user,cor_user,user_user,pass_user,nac_user,te_user,sexo_user)";
-                string strSQL = "insert into tblusuario"+campos+" values('"+nom+"','"+ape+"','"+cor+"','"+user+"','"+pas+"','"+nac+"','"+tel+"','"+sex+"');";
+                string campos = "(nom_user,ape_user,cor_user,user_user,pass_user,nac_user,te_user,sexo_user,id_tipo)";
+                string strSQL = "insert into tblusuario"+campos+" values('"+nom+"','"+ape+"','"+cor+"','"+user+"','"+pas+"','"+nac+"','"+tel+"','"+sex+"',2);";
                 cmd.CommandText = strSQL;
                 cmd.Connection = Connection;
                 cmd.ExecuteNonQuery();          
        
         }
 
+        public void inserta_producto(string nompr, string tipo, string cant, string precio)
+        {
 
+
+            string campos = "(nom_prod,tipo_prod,cant_inventario,precio)";
+            string strSQL = "insert into tblproducto" + campos + " values('" + nompr + "','" + tipo + "','" + cant + "','" + precio + "');";
+            cmd.CommandText = strSQL;
+            cmd.Connection = Connection;
+            cmd.ExecuteNonQuery();
+
+        }
+        
         public void Correo(string opcion, string campo) {
 
             string id = "";
@@ -189,19 +187,9 @@ namespace Conexion
         }
 
 
-        public void actualia() {
+        
+        
 
-            MySqlCommand query = Connection.CreateCommand();
-
-            query.CommandText = "SELECT *FROM tblusuario";
-
-            MySqlDataReader reader = query.ExecuteReader();
-            while (reader.Read())
-            {
-                
-       
-
-            }
-        }
+        
     }
 }

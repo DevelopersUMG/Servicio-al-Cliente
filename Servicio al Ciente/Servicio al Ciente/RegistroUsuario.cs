@@ -23,10 +23,10 @@ namespace Servicio_al_Ciente
         private void button_registrar_Click(object sender, EventArgs e)
         {
             conexion con = new conexion();           
-            string nom = text_nombre.Text;
+           string nom = text_nombre.Text;
             string ape=text_apellido.Text;
             string cor = text_correo.Text + "@" + combobox_correo.SelectedItem.ToString();
-            string user=text_user.Text;
+            string user = text_user.Text;
             string pas=text_pasword.Text;
             string nac=dt_fecha.Text;
             string tel = text_telefono.Text;
@@ -52,15 +52,28 @@ namespace Servicio_al_Ciente
                 combobox_sexo.Text = "";
 
                 MessageBox.Show("Registro exitoso");
-                Login log = new Login();
-                log.Show();
-                this.Hide();
+                
             }
             catch
             {
                 MessageBox.Show("Error de registro de datos");
             }              
                             
+
+        }
+
+        private void text_nombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_nombre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegistroUsuario_Load(object sender, EventArgs e)
+        {
 
         }
 

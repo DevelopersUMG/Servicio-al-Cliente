@@ -65,11 +65,42 @@
     <Compile Include="Consulta.Designer.cs">
       <DependentUpon>Consulta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log.Designer.cs">
+      <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySqlcommand.cs" />
+    <Compile Include="Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Puestos de empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Puestos de empleados.Designer.cs">
+      <DependentUpon>Puestos de empleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="RecuperaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RecuperaUsuario.Designer.cs">
       <DependentUpon>RecuperaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroEmpleado.Designer.cs">
+      <DependentUpon>RegistroEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistroUsuario.cs">
       <SubType>Form</SubType>
@@ -77,11 +108,23 @@
     <Compile Include="RegistroUsuario.Designer.cs">
       <DependentUpon>RegistroUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ventana.cs">
+    <Compile Include="TipoSoporte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ventana.Designer.cs">
-      <DependentUpon>Ventana.cs</DependentUpon>
+    <Compile Include="TipoSoporte.Designer.cs">
+      <DependentUpon>TipoSoporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaAdmin.Designer.cs">
+      <DependentUpon>VentanaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaUser.Designer.cs">
+      <DependentUpon>VentanaUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Ingreso.cs">
       <SubType>Form</SubType>
@@ -109,14 +152,35 @@
     <EmbeddedResource Include="Consulta.resx">
       <DependentUpon>Consulta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log.resx">
+      <DependentUpon>Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto.resx">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Puestos de empleados.resx">
+      <DependentUpon>Puestos de empleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RecuperaUsuario.resx">
       <DependentUpon>RecuperaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroEmpleado.resx">
+      <DependentUpon>RegistroEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroUsuario.resx">
       <DependentUpon>RegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ventana.resx">
-      <DependentUpon>Ventana.cs</DependentUpon>
+    <EmbeddedResource Include="TipoSoporte.resx">
+      <DependentUpon>TipoSoporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaAdmin.resx">
+      <DependentUpon>VentanaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaUser.resx">
+      <DependentUpon>VentanaUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ingreso.resx">
       <DependentUpon>Ingreso.cs</DependentUpon>
